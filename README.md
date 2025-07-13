@@ -1,7 +1,5 @@
 # 🤖 AWS-Cert-Agent: Agentic AWS Study Coach Powered by TinyLLaMA
 
-# 🤖 AWS-Cert-Agent: Agentic AWS Study Coach Powered by TinyLLaMA
-
 This project is an **Agentic CLI Application** that acts as your personalized tutor 
 for the **AWS Solutions Architect Associate (SAA-C03)** certification exam. It is 
 powered by a local LLM (TinyLLaMA via [Ollama](https://ollama.com)) and built using 
