@@ -11,8 +11,8 @@ st.markdown("Your AI study partner for all AWS certifications — ask questions,
 # Optional sidebar for LLM details
 with st.sidebar:
     st.markdown("### ⚙️ Model Config")
-    st.write(f"**Backend:** `{st.session_state.get('LLM_BACKEND', 'ollama')}`")
-    st.write(f"**Model:** `{st.session_state.get('LLM_MODEL', 'tinyllama')}`")
+    st.write(f"**Backend:** `{st.session_state.get('LLM_BACKEND', 'openrouter')}`")
+    st.write(f"**Model:** `{st.session_state.get('LLM_MODEL', 'meta-llama')}`")
     st.markdown("---")
     st.markdown("🌐 Supports **Ollama** locally and **OpenRouter** in the cloud.")
 
