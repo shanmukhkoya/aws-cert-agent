@@ -1,6 +1,6 @@
 # File: agent_core/session_coach.py
 
-from agent_core.ollama_client import query_ollama
+from agent_core.llm_client import call_llm
 from tools.progress_tracker import get_today_topic, mark_complete
 
 def run_daily_session(plan_data: dict):

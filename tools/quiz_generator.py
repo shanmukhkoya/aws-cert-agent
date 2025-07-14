@@ -1,6 +1,6 @@
 # File: tools/quiz_generator.py
 
-from agent_core.ollama_client import query_ollama
+from agent_core.llm_client import call_llm
 
 def quiz_on_topic(topic: str):
     """

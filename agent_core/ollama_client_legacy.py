@@ -1,4 +1,8 @@
 # File: agent_core/ollama_client.py
+# ⚠️ LEGACY FILE — Local-only Ollama client
+# Retained for local testing with Ollama in WSL
+# Not used in production. Use agent_core/llm_client.py instead.
+
 
 import requests
 

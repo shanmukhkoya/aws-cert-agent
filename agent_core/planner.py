@@ -1,6 +1,6 @@
 # File: agent_core/planner.py
 
-from agent_core.ollama_client import query_ollama
+from agent_core.llm_client import call_llm
 
 def generate_study_plan(goal: str, daily_hours: int) -> dict:
     """
