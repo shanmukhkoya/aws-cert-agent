@@ -17,7 +17,7 @@ with st.sidebar:
     st.markdown("🌐 Supports **Ollama** locally and **OpenRouter** in the cloud.")
 
 # User input
-prompt = st.text_area("📝 Ask a question (e.g., What is the difference between EC2 and Lambda?)", height=150)
+prompt = st.text_area("📝 Ask a question (e.g., What is the difference between EC2 and Lambda?)", height=100)
 
 if st.button("🧠 Get Answer"):
     if not prompt.strip():
