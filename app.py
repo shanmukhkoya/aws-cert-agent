@@ -4,8 +4,8 @@ from agent_core.llm_client import call_llm
 
 st.set_page_config(page_title="AWS Cert Agent", layout="centered")
 
-st.title("🧠 AWSCoach AI")
-st.markdown("Your AI study partner for all AWS certifications — ask questions, get explanations, and prepare like a pro.")
+st.title("🧠Coach AI")
+st.markdown("Your AI study partner for any certifications — ask questions, get explanations, and prepare like a pro.")
 
 # Sidebar for LLM backend info
 with st.sidebar:
