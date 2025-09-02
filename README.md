@@ -20,7 +20,7 @@ This project is not just another chatbot. It is an **AI Agent** — a system tha
 
 ## 🔥 Live Web App (Streamlit Cloud)
 
-▶️ [Click to launch](https://aws-cert-agent-lvsai.streamlit.app/)
+▶️ [Click to launch](https://coach-agent-lvsai.streamlit.app/)
 
 ---
 
